@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="passGen.css" />
+    <title>Password Generator</title>
+  </head>
+  <body>
+    <main class="main-section">
+      <div class="generator">
+        <h4 class="heading">Password Generator</h4>
+        <button class="generate">CLICK TO GENERATE</button>
+        <!-- length -->
+        <h6 class="length">LENGTH</h6>
+        <input
+          class="lenInput"
+          type="number"
+          placeholder="Enter  Password Length"
+        />
+
+        <!-- <h6>SETTINGS</h6> -->
+        <!-- settings  -->
+        <div class="uppercase">
+          <h5 class="include">Include Uppercase</h5>
+          <div class="switch">
+            <div class="upper checkbox"></div>
+          </div>
+        </div>
+
+        <div class="symbols">
+          <h5 class="include">Include Symbols</h5>
+          <div class="switch">
+            <div class="symbol checkbox"></div>
+          </div>
+        </div>
+        <div class="lowercase">
+          <h5 class="include">Include lowercase</h5>
+          <div class="switch">
+            <div class="lower checkbox"></div>
+          </div>
+        </div>
+        <div class="numbers">
+          <h5 class="include">Include Numbers</h5>
+          <div class="switch">
+            <div class="number checkbox"></div>
+          </div>
+        </div>
+
+        <button class="submit">GENERATE PASSWORD</button>
+      </div>
+    </main>
+    <script src="passGen.js"></script>
+  </body>
+</html>
